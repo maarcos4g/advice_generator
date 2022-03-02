@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary100: #cee3e9;
+    --primary200: #52ffa8;
+    --neutral100: #4e5d73;
+    --neutral90: #323a49;
+    --neutral80: #1f2632;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    background: var(--neutral80);
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 37%;
+    height: 300px;
+
+    background: var(--neutral90);
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 25px;
+
+    gap: 35px;
+
+    position: relative;
+}
+
+.container label {
+    color: var(--primary200);
+
+    display: flex;
+
+    gap: 10px;
+}
+
+#advice_content {
+    color: var(--primary100);
+    font-size: 20px;
+    text-align: center;
+
+    width: 70%;
+}
+
+.divider {
+    width:100%;
+    height: 16px;
+    background-image: url("./assets/images/pattern-divider-desktop.svg");
+    background-color: transparent;
+}
+
+#generate_advice {
+    padding: 10px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: none;
+
+    background: var(--primary200);
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: -20px;
+}
