@@ -92,6 +92,10 @@ body {
     bottom: -20px;
 }
 
+#generate_advice:hover {
+    box-shadow: 0 0 1em var(--primary200);
+}
+
 @media screen and (max-width: 1000px) {
     .container {
         width: 60%;
