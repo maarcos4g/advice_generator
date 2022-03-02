@@ -69,10 +69,12 @@ body {
     height: 16px;
     background-image: url("./assets/images/pattern-divider-desktop.svg");
     background-color: transparent;
+
+    margin-bottom: 20px;
 }
 
 #generate_advice {
-    padding: 10px;
+    padding: 20px;
 
     display: flex;
 
@@ -88,6 +90,13 @@ body {
 
     position: absolute;
     bottom: -20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 60%;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 700px) {
