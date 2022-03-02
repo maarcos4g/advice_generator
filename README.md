@@ -2,7 +2,7 @@
 <img src="./assets/design/active-states.jpg">
 </p>
 
-# Projeto
+# Project
 
 This project is a [Frontend Mentor](https://www.frontendmentor.io/challenges/) challenge that uses the Advice Slip API to generate random advice quotes.
 
