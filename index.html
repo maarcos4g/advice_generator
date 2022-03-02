@@ -15,23 +15,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
 
+    <script src="./main.js"></script>
+
 </head>
 
 <body>
     <div class="container">
         <label>
-            <span>ADVICE</span>
-            <span id="id_advice">#117</span>
+            <span>Conselho</span>
+            <span id="id_advice">#000</span>
         </label>
 
         <span id="advice_content">
-            "It is easy to sit up and take notice,
-            what's difficult is getting up and taking action"
+            Clique no botão abaixo e veja qual conselho será gerado.
         </span>
 
         <div class="divider"></div>
 
-        <button id="generate_advice">
+        <button id="generate_advice" onclick="getAdvice()">
             <img src="./assets/images/icon-dice.svg" alt="Dice">
         </button>
 
